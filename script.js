@@ -65,9 +65,7 @@ function addToCart(){
 		}
 	})
 }
-
 addToCart()
-
 function showCart(){
 	document.querySelector(".carticon").addEventListener("click",function(){
 		document.querySelector(".cartexpnd").style.display = "block"
